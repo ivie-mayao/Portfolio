@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+
+        <!-- NAVIGATION BAR -->
+        <nav class="nav-bar">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="bold">IVIE MAYAO/</span>
+                    <span class="normal">Portfolio</span>
+                </div>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#about-me">About Me</a></li> 
+                </ul>
+            </div>
+        </nav>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="circle-layout">
+            <div class="intro-text">
+                <p>I'm</p>
+                <p class="name-line">
+                    <span class="ivie">Ivie</span>
+                    <span class="mayao">Mayao</span>
+                </p>
+                <div class="rounded-line"></div>
+                <p class="subtitle">
+                    An aspiring Data Analyst passionate about transforming data into actionable insights.
+                </p>
+            </div>
+            <div class="circle">
+                <img src="images/Me.png" alt="Profile Image" class="circle-image">
+            </div>
+        </section>
+
+        <!-- PROJECT SECTION -->
+        <section id="project" class="project-section">
+            <div class="project-why">
+                <h2 class="why-headline">Bridging the Gap: Emergency Reporting, Even Without Internet Access.</h2>
+            </div>
+
+            <div class="project-header">
+                <div class="project-intro-block">
+                    <p class="project-headline">
+                        <span class="red">OneTapSOS:</span> An AI-Powered SMS Emergency Alert System for Reporting Robbery and Assault
+                    </p>
+                    <div class="project-overview">
+                        <h3>Overview</h3>
+                        <p>
+                        OneTapSOS is a mobile safety application designed to help students report emergencies quickly,
+                        discreetly, and without internet access. With just one tap, users can send an SMS alert containing
+                        their location, emergency message, and personal details.
+                        </p>
+                    </div>
+                    <div class="project-links">
+                        <button id="openModalButton" class="demo-button">▶️ Watch Video Demo</button>
+                        <a href="https://www.notion.so/OneTapSOS-2ac6fb0378b68067af69fa8b0375baf3?source=copy_link" target="_blank" class="notion-link">
+                            View Full Documentation on Notion
+                        </a>
+                    </div>
+                </div>
+                <div class="project-visuals">
+                    <div class="mockup-container">
+                        <img src="images/Mockup.png" alt="OneTapSOS App Mockup" class="mockup-image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-features-list">
+                <h3>Key Features</h3>
+                <ul>
+                    <li>🚨 <b>One-Tap SOS Alert:</b> Instant, discreet emergency message sending via SMS.</li>
+                    <li>🎙️ <b>Voice-to-Text Input:</b> Quick report composition without typing.</li>
+                    <li>📍 <b>Automatic Location Tracking:</b> Sends GPS coordinates even without internet data.</li>
+                    <li>🤖 <b>AI-Powered Classification:</b> Automatically categorizes reports for faster response.</li>
+                    <li>📊 <b>Admin Dashboard:</b> Centralized system for receiving and managing emergency reports.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ABOUT ME SECTION -->
+        <section id="about-me" class="about-me-section">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Who I Am</h2>
+            </div>
+            <div class="about-me-content-wrapper">
+                <div class="about-narrative">
+                    <h3>The Project and Leadership Journey</h3>
+                    <p>I am Ivie Mayao, a project-focused analyst specializing in transforming raw information into structured, actionable documents and clear data insights. On the OneTapSOS project, I served as both Documentation Lead and Project Data & Analysis Lead.</p>
+                    <p>My focus was on ensuring data integrity and project clarity. As a leader, I managed all documentation to align with departmental templates and coordinated team updates. As an analyst, I cleaned, organized, and prepared data for descriptive statistical summaries, enabling the team to make informed decisions.</p>
+                    <a href="#contact" class="btn-primary">Get In Touch</a>
+                </div>
+
+                <div class="about-skills">
+                    <h3>Foundational Toolkit</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">📋 <b>Data Management:</b> Encoding, organizing records, and ensuring data integrity.</div>
+                        <div class="skill-item">📄 <b>Documentation & Project Lead:</b> Template management, team coordination, and reporting.</div>
+                        <div class="skill-item">💻 <b>Data Summaries:</b> Microsoft Excel (formulas, formatting, summaries).</div>
+                        <div class="skill-item">🌐 <b>Web Basics:</b> HTML & CSS for simple websites.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-content-wrapper">
+                <p>I'm seeking opportunities to apply my foundational data analysis and leadership skills. Connect via the links below or send me an email.</p>
+            </div>
+            <div class="final-social-bar">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/mayao.ivie" target="_blank"><img src="images/meta.png" alt="Meta"></a>
+                    <a href="mailto: iviemayao613@gmail.com"><img src="images/google.png" alt="Google"></a>
+                    <a href="https://www.linkedin.com/in/ivie-mayao" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/ivie-mayao" target="_blank"><img src="images/github-logo.png" alt="GitHub"></a>
+                </div>
+            </div>
+            <p class="copyright">© 2025 Ivie Mayao Portfolio. All rights reserved.</p>
+        </section>
+
+    </div> 
+
+    <!-- VIDEO MODAL -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <video id="projectVideo" controls>
+                <source src="video/Project_Video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
