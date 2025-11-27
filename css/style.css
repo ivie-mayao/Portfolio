@@ -127,7 +127,9 @@ body {
     flex-shrink: 0; 
 }
 
-.intro-text p { margin: 0; }
+.intro-text p { 
+    margin: 0; 
+}
 .intro-text p:first-child {
     font-size: clamp(2.5rem, 5vw, 5rem);
     font-weight: 300;
@@ -213,7 +215,9 @@ body {
     padding-right: 10px;
 }
 
-.project-headline .red { color: #4CB5AE; }
+.project-headline .red { 
+    color: #4CB5AE; 
+}
 
 .project-overview h3 {
     font-size: 1.8rem;
@@ -248,12 +252,24 @@ body {
 }
 
 .demo-button {
-    background-color: transparent; 
-    color: #4CB5AE; 
+    background-color: transparent;
+    color: #4CB5AE;
     border: 2px solid #4CB5AE;
-    min-width: 160px; 
     font-weight: 700;
     cursor: pointer;
+    font-size: 1rem;
+    padding: 12px 28px;
+    min-width: 180px;
+    max-width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
 }
 
 .demo-button:hover {
@@ -584,8 +600,16 @@ body {
         white-space: nowrap;       
     }
 
-    .logo .bold { font-size: 15px; font-weight: 700; color: #4CB5AE; }
-    .logo .normal { font-size: 13px; font-weight: 400; color: #E8F1F2; }
+    .logo .bold { 
+        font-size: 15px; 
+        font-weight: 700; 
+        color: #4CB5AE; 
+    }
+    .logo .normal { 
+        font-size: 13px; 
+        font-weight: 400; 
+        color: #E8F1F2; 
+    }
 
     .nav-bar ul {
         display: flex;
@@ -664,6 +688,13 @@ body {
         width: 100%;
         text-align: center;
         padding: 14px 20px;  
+    }
+    .demo-button {
+        font-size: 0.95rem;
+        padding: 12px 20px;
+        width: 100%;
+        max-width: 100%;
+        flex-wrap: nowrap;
     }
     .project-features-list {
         padding: 0 5%;        
